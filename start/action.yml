@@ -57,7 +57,7 @@ runs:
   steps:
 
     - id: auth
-      uses: aws-actions/configure-aws-credentials@v1.6.0
+      uses: aws-actions/configure-aws-credentials@master
       with:
         aws-region: ${{ inputs.aws-region }}
         aws-access-key-id: ${{ inputs.aws-access-key-id }}
